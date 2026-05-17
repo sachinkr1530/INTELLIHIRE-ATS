@@ -12,7 +12,7 @@ const Profile = () => {
 
   const fetchUser = async () => {
     const token = localStorage.getItem("token");
-    const res = await axios.get("http://localhost:8080/user/profile", {
+    const res = await axios.get("http://https://intellihire-ats.onrender.com/user/profile", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

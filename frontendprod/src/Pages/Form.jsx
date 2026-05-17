@@ -151,7 +151,7 @@ const Form = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8080/resume/create",
+        "http://https://intellihire-ats.onrender.com/resume/create",
         formData,
         { headers: { Authorization: `Bearer ${token}` } }
       );

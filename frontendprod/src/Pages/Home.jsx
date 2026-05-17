@@ -20,7 +20,7 @@ const Home = () => {
     const token = localStorage.getItem("token");
     try {
       const { data } = await axios.get(
-        "http://localhost:8080/resume/getAll/1",
+        "http://https://intellihire-ats.onrender.com/resume/getAll/1",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -40,7 +40,7 @@ const Home = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.delete(
-        `http://localhost:8080/resume/delete/${id}`,
+        `http://https://intellihire-ats.onrender.com/resume/delete/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

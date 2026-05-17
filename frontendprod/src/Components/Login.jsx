@@ -16,7 +16,7 @@ const Login = () => {
 
         try {
           const res = await axios.post(
-            "http://localhost:8080/auth/login",
+            "http://https://intellihire-ats.onrender.com/auth/login",
             formData
           );
           console.log(res.data);
