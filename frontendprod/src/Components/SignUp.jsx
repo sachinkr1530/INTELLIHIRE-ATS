@@ -33,7 +33,7 @@ const SignUp = () => {
             };
             try {
               const res = await axios.post(
-                "https://intellihire-ats.onrender.com://intellihire-ats.onrender.com/auth/sign",
+                "https://intellihire-ats.onrender.com/auth/sign",
                 formData
               );
               console.log(res.data);

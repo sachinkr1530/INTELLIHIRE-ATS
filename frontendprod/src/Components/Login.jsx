@@ -16,7 +16,7 @@ const Login = () => {
 
         try {
           const res = await axios.post(
-            "https://intellihire-ats.onrender.com://intellihire-ats.onrender.com/auth/login",
+           "https://intellihire-ats.onrender.com/auth/login",
             formData
           );
           console.log(res.data);
