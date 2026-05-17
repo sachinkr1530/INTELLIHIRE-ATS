@@ -90,7 +90,7 @@
 //       // Convert role to URL-friendly format (replace spaces with hyphens or %20)
 //       const roleParam = jobRole.toLowerCase().replace(/\s+/g, "-");
 
-//       const apiUrl = `http://https://intellihire-ats.onrender.com/resume/job/${roleParam}`;
+//       const apiUrl = `https://intellihire-ats.onrender.com://intellihire-ats.onrender.com/resume/job/${roleParam}`;
 
 //       try {
 //         console.log("Fetching jobs from:", apiUrl);
@@ -355,7 +355,7 @@ const JobDashBoard = () => {
       // Convert role to URL-friendly format (replace spaces with hyphens or %20)
       const roleParam = jobRole.toLowerCase().replace(/\s+/g, "-");
 
-      const apiUrl = `http://https://intellihire-ats.onrender.com/resume/job/${roleParam}`;
+      const apiUrl = `https://intellihire-ats.onrender.com://intellihire-ats.onrender.com/resume/job/${roleParam}`;
 
       try {
         console.log("Fetching jobs from:", apiUrl);

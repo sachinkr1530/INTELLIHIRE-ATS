@@ -860,7 +860,7 @@ const Preview = () => {
     try {
       const token = localStorage.getItem("token");
       const { data } = await axios.get(
-        `http://https://intellihire-ats.onrender.com/resume/getOne/${params.id}`,
+        `https://intellihire-ats.onrender.com://intellihire-ats.onrender.com/resume/getOne/${params.id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
