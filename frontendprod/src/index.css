@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+}
+
+.active {
+  color: rgb(94, 251, 173);
+  transform: scale(1.2);
+  position: relative;
+}
+.active::after {
+  position: absolute;
+  content: " ";
+  left: -4px;
+  bottom: 0;
+  width: 120%;
+  height: 2px;
+  background-color: rgb(255, 210, 128);
+}
+
+.sidebar {
+  overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  scrollbar-width: none;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+}
